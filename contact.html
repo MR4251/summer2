@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <img src="flamingtext_com-21767991292.png" alt="Site Logo" class="site-logo">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="#">Diet</a>
+      <a href="#">Workout Split</a>
+      <a href="#">Recovery</a>
+      <a href="contact.html">Contact</a>
+      <a href="#">FAQs</a>
+    </nav>
+  </header>
+
+  <main class="form-container">
+    <h2>Contact Us</h2>
+    <p>We’d love to hear from you! Fill out the form below with your questions, goals, or feedback.</p>
+
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="goal">Fitness Goal:</label>
+      <select id="goal" name="goal">
+        <option value="">Select your goal</option>
+        <option value="body-recomposition">Body Recomposition</option>
+        <option value="lose-weight">Lose Weight</option>
+        <option value="gain-weight">Gain Weight</option>
+        <option value="build-muscle">Build Muscle</option>
+        <option value="endurance">Improve Endurance</option>
+        <option value="general-fitness">General Fitness</option>
+      </select>
+
+      <label for="experience">Experience Level:</label>
+      <select id="experience" name="experience">
+        <option>Beginner</option>
+        <option>Intermediate</option>
+        <option>Advanced</option>
+      </select>
+
+      <label for="message">Questions or Concerns:</label>
+      <textarea id="message" name="message" rows="4"></textarea>
+
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Trust The Process</p>
+  </footer>
+</body>
+</html>
