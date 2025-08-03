@@ -238,3 +238,24 @@ main {
 .card-group {
   gap: 20px; 
 }
+
+
+
+.layout.full-width {
+  display: flex;
+  justify-content: center;
+}
+
+.content-area.stretch {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.full-width {
+  width: 100%;
+}
+
+
